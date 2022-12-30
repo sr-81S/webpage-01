@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7ACDA;
+    border-radius: 40% 100% 100% 100% / 0% 100% 0% 100% ;
+    
+}
+
+.container{
+    height: 682px;
+    width: 900px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.grid{
+    display: grid;
+}
+.grid-two-col{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.data-area{
+    background-image: url(../image/pawel-czerwinski-arwTpnIUHdM-unsplash.jpg);
+    background-size: cover;
+    clip-path: polygon(100% 1%, 100% 100%, 22% 100%, 0 84%, 0 0);
+    padding: 3rem;
+    color: #fff;
+    position: relative;
+}
+
+.data-head{ 
+    position: absolute; 
+    top: 180px;
+    left: 100px;
+    font-weight: 700;
+font-size: 34px;
+line-height: 40px;
+}
+
+.data-des{
+    position: absolute;
+    max-width: 264px;
+    top: 250px;
+    left: 100px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.form-area{
+    padding: 5rem 3rem;
+    position: relative;
+    background: #fff;
+    clip-path: polygon(81% 0, 100% 18%, 100% 100%, 0 100%, 0 0);
+
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-3{
+    margin-top: 20px;
+}
+.level{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.form-area input{
+    padding: 0.6rem 0.2rem;
+    font-size: 1rem;
+    border: 2px solid #BDBDBD;
+}
+.form-area input[type="number"]{
+    padding: 0.5rem 0.2rem;
+    margin-top: 5px;
+    width: 100px;
+}
+.form-area input[type="password"]{
+
+    width: 100%;
+}
+.form-area input[type="radio"]{
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 20px;
+    height: 20px;
+}
+.form-area input[type="submit"]{
+    font-size: 1.2rem;
+    height: 44px;
+    width: 188px;
+    font-weight: 700;
+    background: #2D9CDB;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.select-st{
+    margin-top: 5px;
+    padding: 0.7rem 0.8rem;
+    border: 2px solid #BDBDBD;
+}
+
+
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Figma</title>
+</head>
+
+<body>
+
+    <div class="section">
+        <div class="container grid grid-two-col">
+            <div class="data-area">
+                <h1 class="data-head">Sample heading</h1>
+                <p class="data-des">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo non ducimus quaerat quae doloribus
+                    rerum quisquam. Culpa quaerat libero harum adipisci rem laudantium, dolorum nostrum tempora
+                    exercitationem molestias. Hic, dolor.</p>
+            </div>
+            <div class="form-area">
+                <h2 class="form-heading">Create an account</h2>
+                <form action="">
+                    <div class="d-flex mt-3">
+                        <label class="level" for="email">Enter your Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="mt-3">
+                        <label for="date" class="level">Date of birth (Optional)</label>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <input type="number" name="date" id="date">
+                            <select class="select-st" name="month" id="month">
+                                <option value="volvo">Jan</option>
+                                <option value="saab">Feb</option>
+                                <option value="fiat">March</option>
+                                <option value="audi">April</option>
+                                <option value="audi">May</option>
+                                <option value="audi">June</option>
+                                <option value="audi">July</option>
+                                <option value="audi">Aug</option>
+                                <option value="audi">Sep</option>
+                                <option value="audi">Oct</option>
+                                <option value="audi">Nov</option>
+                                <option value="audi">Dec</option>
+                            </select>
+                            <select class="select-st" name="year" id="year">
+                                <option value="volvo">1998</option>
+                                <option value="saab">1999</option>
+                                <option value="fiat">2000</option>
+                                <option value="audi">2001</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <label class="level" for="passeord">Choose a strong password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="mt-3">
+                        <h4 class="level">Are you an agency or individual?</h4>
+                        <input type="radio" id="indivisual" name="indivisual" value="individual">
+                        <label for="indivisual">Indivisual</label>
+                        <input type="radio" id="agency" name="agency" value="agency">
+                        <label for="agency">Agency</label>
+                    </div>
+                    <div class="mt-3">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
